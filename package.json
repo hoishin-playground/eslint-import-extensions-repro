@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "postinstall": "cd eslint-plugin-import && npm i && npm run build"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-plugin-import": "./eslint-plugin-import"
+  }
+}
